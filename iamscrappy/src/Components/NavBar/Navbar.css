@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.navbar {
+  padding: 1rem;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: rgb(253, 253, 253);
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 1rem;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color : rgb(255 255 255);
+  font-size: 18px;;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #070707;
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  background-color: #fdfdfd;
+  display: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.dropdown-menu.show {
+  display: block;
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #171515;
+  color: #000000;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+
+  .navbar-nav .nav-link {
+    color : rgb(255 255 255);
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    margin-left: 5%;
+  }
+}

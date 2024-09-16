@@ -1,0 +1,105 @@
+.row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent columns from wrapping */
+  }
+  
+  .image-section {
+    margin-right: 20px;
+    text-align: center;
+    background: url('../images/phnback.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  
+  
+  .placeholder {
+    width: 78%;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  
+  
+  .image {
+    width: 78%;
+    margin-left: -2%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    height: 400px;
+    border-radius: 25px;
+  }
+  
+  
+  .form-section {
+    background: linear-gradient(135deg, #e0eafc00 0%, #cfdef300 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .form-section:hover {
+    /* transform: scale(1.05); */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="file"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    height: 266px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  input[type="file"]:hover,
+  textarea:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .image-button{
+    height: 50px;
+    width: 50px;
+    margin-left: -4%;
+  }
+  
+  .image-button:hover{
+    cursor: pointer;
+  }
+  
+  .pdffile{
+    z-index: 10000;
+  }

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background: #dbf3c9a6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#chat2 .form-control {
+  border-color: transparent;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+#chat2 .form-control:focus {
+  border-color: black;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+
+.header {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 0%;
+}
+
+.chatbox{
+  max-width: 480px;
+}
+
+.desktop404{
+  overflow-y: hidden;
+}

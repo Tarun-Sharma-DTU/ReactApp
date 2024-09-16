@@ -1,0 +1,151 @@
+#chat2 .form-control {
+    border-color: #772f2f;
+    }
+    
+    #chat2 .form-control:focus {
+    border-color: #772f2f;
+    box-shadow: inset 10px 10px 10px 10px transparent;
+    }
+    
+    .divider:after,
+    .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+    }
+
+    .card-body {
+        position: relative;
+        min-height: 676px;
+        margin-bottom: 15%;
+        margin-top: 10%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .chat{
+        position: fixed;
+        left: 24%;
+        top: 0.5%;
+    }
+
+    .chatheader {
+        position: fixed;
+        background: rgb(255, 255, 255);
+        height: 50px;
+        padding: 10px;
+        width: 101%;
+        margin-left: -1px;
+        border-radius: 6px;
+        left: 3%;
+    }
+    
+
+    .card-footer{
+        position: fixed;
+        top: 90%;
+        background: white;
+        z-index: 1;
+        position: fixed;
+        top: 90%;
+        background: white;
+        z-index: 1;
+        left: 8px;
+        width: 94.5%;
+    }
+
+    .chatheader {
+        background: white;
+        position: fixed;
+        top: 0%;
+        background: white;
+        z-index: 1000;
+        width: 93.5%;
+        border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    }
+
+
+    .search-bar{
+        position: absolute;
+        top: 7%;
+    }
+
+    .send{
+        position: absolute;
+        left: 90%;
+    }
+    
+
+    .box{
+        position: absolute;
+        top: 18%;
+        width: 90%;
+        left: 5%;
+    }
+
+    .header{
+        position: fixed;
+        background: black;
+        width: 103%;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .chatpage{
+        overflow: hidden;
+    }
+
+
+    @font-face {
+        font-family: 'TarunFont';
+        src: url('./font/amatic/Amatic-Bold.ttf') format('truetype');
+    }
+
+    .chatpage{
+        font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    }
+
+    .card-body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    }
+
+    .bg-body-tertiary {
+        --bs-bg-opacity: 1;
+        background-color: rgb(176 210 243 / 66%) !important;
+    }
+
+
+    .form-control-lg {
+        min-height: calc(1.5em + 1rem + calc(var(--bs-border-width)* 2));
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        width: 100%;
+        border-radius: var(--bs-border-radius-lg);
+    }
+
+    .form-control-lg-chatbox {
+        min-height: calc(1.5em + 1rem + calc(var(--bs-border-width)* 2));
+        padding: 0.5rem 3rem;
+        font-size: 14px;
+        width: 100%;
+        border-radius: var(--bs-border-radius-lg);
+    }
+
+    .delete{
+        margin-top: -330%;
+        position: relative;
+        left: 1080%;
+    }
+
+    .chatbox{
+        margin-bottom: -4%;
+    }
+
+    .name{
+        font-size: 16px;
+    }
+    
+    .secret{
+        font-size: 12px;
+    }

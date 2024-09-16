@@ -1,0 +1,146 @@
+.image {
+    width: 68%;
+    margin-left: -2%;
+    margin-top: 4%;
+    margin-bottom: 12%;
+    height: 343px;
+    border-radius: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent columns from wrapping */
+  }
+  
+  .image-in-image-section {
+    margin-right: 20px;
+    text-align: center;
+    background: url('../images/phnback.webp') no-repeat center center;
+    background-size: contain;
+  }
+  
+  
+  
+  .placeholder-image-in-image-get {
+    width: 69%;
+    margin-left: 14%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    height: 323px;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+  
+  
+  
+.image-in-image-get {
+  width: 77%;
+  margin-left: -1%;
+  margin-top: -7%;
+  margin-bottom: 15%;
+  height: 390px;
+  border-radius: 20px;
+}
+
+.image-pdf {
+    width: 78%;
+    margin-left: -1%;
+    margin-top: 26%;
+    margin-bottom: 15%;
+    height: 380px;
+    border-radius: 20px;
+}
+  
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .image-button-get{
+    height: 50px;
+    width: 50px;
+    margin-left: -4%;
+    margin-top: 10%;
+  }
+  
+  .image-button-get:hover{
+    cursor: pointer;
+  }
+
+  .image-button-download{
+    height: 50px;
+    width: 50px;
+    margin-top: 5%;
+  }
+  
+
+  .image {
+    width: 68%;
+    margin-left: -2%;
+    margin-top: 21%;
+    margin-bottom: 12%;
+    height: 343px;
+    border-radius: 25px;
+}
+
+.container .image-button-get {
+    height: 50px;
+    width: 50px;
+    margin-left: -4%;
+    margin-top: 30px;
+}
+
+
+  @media only screen and (max-width: 600px) {
+
+
+
+    .image-button-download {
+        height: 50px;
+        width: 50px;
+        margin-top: 5%;
+        margin-left: -7%;
+    }
+
+    .placeholder-image-in-image-get {
+        width: 95%;
+        margin-left: 1%;
+        margin-top: 0px;
+        top: 5%;
+        margin-bottom: 30%;
+        height: 240px;
+        position: relative;
+        font-size: medium;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: border-color 0.3s ease;
+    }
+
+    .container .image-in-image-get {
+      width: 110%;
+      margin-left: -6%;
+      margin-top: 17%;
+      margin-bottom: 66%;
+      height: 247px;
+      border-radius: 12px;
+  }
+
+    .container .image-pdf {
+        width: 108%;
+        margin-left: -5%;
+        margin-top: 33%;
+        margin-bottom: 20%;
+        height: 244px;
+        border-radius: 15px;
+    }
+
+  }

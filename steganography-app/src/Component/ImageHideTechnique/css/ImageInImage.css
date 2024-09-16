@@ -1,0 +1,128 @@
+.row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent columns from wrapping */
+  }
+  
+  .image-in-image-section {
+    margin-right: 20px;
+    text-align: center;
+    background: url('../images/phnback.webp') no-repeat center center;
+    background-size: contain;
+  }
+  
+  
+  
+  .placeholder-image-in-image {
+    width: 69%;
+    margin-left: 14%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    height: 323px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+  
+  
+  
+
+
+.image-in-image {
+  border-radius: 20px;
+  height: 386px;
+  margin-bottom: 15%;
+  margin-left: -1%;
+  margin-top: -7%;
+  width: 77%;
+}
+  
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .image-button{
+    height: 50px;
+    width: 50px;
+    margin-left: -4%;
+  }
+  
+  .image-button:hover{
+    cursor: pointer;
+  }
+  
+
+  .stand {
+    margin-top: -40px;
+    z-index: -1;
+    margin-left: -28px;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .container{
+        margin-top: 1%;
+    }
+
+    .imagephone{
+        margin-top: 0%;
+    }
+
+    .image-button-decode {
+        height: 80px;
+        width: 100px;
+        margin-left: -6%;
+    }
+
+    .container .image-in-image {
+        width: 111%;
+        margin-left: -7%;
+        margin-top: 10%;
+        margin-bottom: 63%;
+        height: 244px;
+        border-radius: 12px;
+    }
+
+    .container .image-button-pdf {
+        height: 50px;
+        width: 50px;
+        margin-left: -4%;
+        margin-top: 0%;
+    }
+
+    .container .text-white {
+        margin-bottom: 1%;
+    }
+
+    .placeholder-image-in-image {
+        width: 115%;
+        margin-left: -10%;
+        margin-top: 0px;
+        top: 5%;
+        margin-bottom: 30%;
+        height: 240px;
+        position: relative;
+        font-size: medium;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: border-color 0.3s ease;
+    }
+
+    .container .image-in-image-button {
+        height: 50px;
+        width: 50px;
+        margin-left: -4%;
+        margin-top: 10%;
+    }
+
+
+
+}

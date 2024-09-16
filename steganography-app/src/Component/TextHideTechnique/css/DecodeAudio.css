@@ -1,0 +1,63 @@
+.row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent columns from wrapping */
+  }
+  
+
+
+.audio-section-decode {
+    margin-right: 20px;
+    text-align: center;
+    background: url('../images/phnback.webp') no-repeat center center;
+    background-size: contain;
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+  }
+
+  .placeholder_decode_audio {
+    width: 27%;
+    margin-top: 9%;
+    margin-bottom: 7%;
+    height: 322px;
+    font-size: medium;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+  .audio-section-decode audio {
+    position: relative;
+    top: 200%;
+    /* left: 50%; */
+    margin-left: 27%;
+    /* width: 2px; */
+    transform: translate(-50%, -50%);
+    width: 28%;
+}
+
+  .image-button-decode-audio{
+    height: 80px;
+    width: 100px;
+    margin-left: -1%;
+  }
+  
+  .image-button-decode:hover{
+    cursor: pointer;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .audio-section-decode audio {
+        position: relative;
+        top: 200%;
+        /* left: 50%; */
+        margin-left: 49%;
+        /* width: 2px; */
+        transform: translate(-50%, -50%);
+        width: 102%;
+    }
+    
+  }

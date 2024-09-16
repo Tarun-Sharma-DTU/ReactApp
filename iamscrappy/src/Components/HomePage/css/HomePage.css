@@ -1,0 +1,226 @@
+.mainheading{
+    font-family: "BoldTarunFont", "Motiva Sans Bold", serif;
+    color: rgb(24, 33, 109);
+    font-size: 100px;
+    position: relative;
+    line-height: 1.18;
+    margin-bottom: 2%;
+}
+.img-fluid
+{
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+h1, h2, h3{
+    font-family: "BoldTarunFont", "Motiva Sans Bold", serif;
+    color: rgb(24, 33, 109);
+    font-size: 56px;
+    position: relative;
+    line-height: 1.18;
+    margin-bottom: 2%;
+}
+
+h4{
+    font-family: "BoldTarunFont", "Motiva Sans Bold", serif;
+    color: rgb(24, 33, 109);
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+p{
+    color: rgb(24, 33, 109);
+    font-size: 20px;
+    line-height: 1.41;
+    position: relative;
+    font-family: "TarunFont", "Motiva Sans Bold", serif;
+}
+
+.text{
+    color: rgb(24, 33, 109);
+    font-size: 18px;
+    line-height: 1.41;
+    position: relative;
+    font-family: "TarunFont", "Motiva Sans Bold", serif;
+}
+
+button{
+    position: relative;
+}
+
+.button {
+    background: rgb(46, 24, 106);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    border: 1px solid rgb(237, 243, 245);
+    border-radius: 4px;
+    padding: 13px 0px;
+    cursor: pointer;
+    margin-top: 0.625rem;
+    max-width: 180px;
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba(23, 31, 114, 0.2) 0px 16px 30px;
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 130, 92);
+    background-color: rgb(255, 130, 92);
+}
+
+body{
+    background: rgb(240, 227, 227);
+}
+/* Add this to your existing HomePage.css file */
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .info {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+
+.featureimages{
+    margin-bottom: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+.features{
+    margin-top: 5%;
+}
+
+.about{
+    animation: slideInFromRight 2s ease-in-out;
+}
+
+@font-face {
+    font-family: 'TarunFont';
+    src: url('./font/rubik/Rubik-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BoldTarunFont';
+    src: url('./font/amatic/Amatic-Bold.ttf') format('truetype');
+}
+
+
+
+@media (max-width: 768px) {
+    .info h1, .info p, .info .button {
+        top: 0;
+        text-align: center;
+    }
+    .info img {
+        width: 100%;
+        height: auto;
+    }
+    .features .col {
+        text-align: center;
+    }
+
+    .button{
+        margin-bottom: 20%;
+    }
+
+    .img-fluid
+{
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+}
+
+/* HomePage.css */
+
+.info, .features {
+    width: 100%;
+    text-align: center;
+}
+
+.info .col, .about .col, .features .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureimages {
+    margin: 10px 0;
+}
+
+.youtube{
+    position: relative;
+    left: 10%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 768px) {
+    .info, .features {
+        text-align: center;
+    }
+
+    .info .col, .about .col, .features .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .info img, .features img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    } */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features .col {
+        margin-bottom: 20px;
+    }
+
+    .ptext{
+        font-size: 14px;
+    }
+
+    .featureimagescol{
+        position: relative;
+        left: 10%;
+    }
+
+    .youtube iframe{
+        width: 100%;
+        height: 200px;
+    }
+
+    .youtube{
+        left: 0%;
+    }
+
+}

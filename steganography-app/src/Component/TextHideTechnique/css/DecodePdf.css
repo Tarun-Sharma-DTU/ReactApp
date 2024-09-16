@@ -1,0 +1,60 @@
+.image-decode {
+  width: 36%;
+  margin-left: -1%;
+  margin-top: 11%;
+  margin-bottom: 6%;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.placeholder_decode {
+  width: 36%;
+  margin-top: 12%;
+  margin-bottom: 7%;
+  height: 400px;
+  font-size: medium;
+  margin-left: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.image-decode-pdf{
+  width: 36%;
+  margin-left: -1%;
+  margin-top: 12%;
+  margin-bottom: 7%;
+  height: 400px;
+  border-radius: 25px;
+}
+
+.image-button-decode{
+  height: 80px;
+  width: 100px;
+  margin-left: -1%;
+}
+
+.image-button-decode:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container .image-decode-pdf {
+    width: 109%;
+    margin-left: -6%;
+    margin-top: 79%;
+    margin-bottom: 64%;
+    height: 242px;
+    border-radius: 15px;
+}
+
+  .text-white {
+    color: #fff !important;
+    font-size: 15px;
+  }
+
+
+}
